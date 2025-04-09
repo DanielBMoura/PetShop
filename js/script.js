@@ -12,7 +12,7 @@ function criarCookie(nome, valor, diasDeExpiracao) {
 const nomeDoUsuario = lerCookie("usuario")
 
 if (nomeDoUsuario) {
-  console.log("Bem-vindo de volta, " + nomeDoUsuario + "!")
+  alert("Bem-vindo de volta, " + nomeDoUsuario + "!")
 } else {
 
   const nomeUsuario = prompt("Qual é o seu nome?")
