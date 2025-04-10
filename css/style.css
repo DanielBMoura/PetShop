@@ -151,7 +151,7 @@ img {   width: 100%; height: auto; border-radius: 10px; }
 
 .caption h2, .caption p {  margin: 0; line-height: 1.5; }
 
-button {
+.prev, .next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -486,4 +486,117 @@ input:focus{
 .logo {
 	width: 50px;
 	height: 50px;
+}
+
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+
+#cookie-banner p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#cookie-banner a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#cookie-banner button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cookie-banner button:hover {
+    background-color: #e68900;
+}
+
+#cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+
+#cookie-banner p {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#cookie-banner a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+#cookie-banner button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#cookie-banner button:hover {
+    background-color: #e68900;
+}
+
+/* Estilos para o alerta de boas-vindas personalizado */
+.alert {
+    display: none;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    z-index: 2000;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.alert button {
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.alert button:hover {
+    background-color: #e68900;
+}
+
+.alert input {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
 }
