@@ -7,12 +7,16 @@
 O projeto é uma interface de um petshop fornecido pelo Professor Marcelo Barbosa, onde em nossa atividade, tivemos que adicionar boas práticas de estruturação para o site, incluindo Meta Tag`s e o sistema do Google Analytics para aumento de visibilidade. Além isso,
 tivemos que implementar cookies no projeto <br>
 O projeto pode ser acessado por este link: <br>
-👉 https://ee-company.vercel.app/
+👉 pet-shop-roan-seven.vercel.app
 </p>
 
 ## Funcionalidades ✨
 
-📱 **Design responsivo**: Permite o acesso por todo tipo de dispositivo, oferecendo uma boa experiência em todos os tipos de telas.  
+📊 **Google Analytics**: Ferramenta que coleta dados de navegação dos usuários no site, como páginas mais visitadas, tempo de permanência e localização geográfica.
+
+🏷️ **Meta Tags**: Trechos de código HTML adicionados ao <head> da página que fornecem informações sobre o site. Elas melhoram a visibilidade nos mecanismos de busca (SEO) e garantem uma apresentação adequada ao compartilhar o site.
+
+🍪 **Cookies**: Arquivos pequenos armazenados no navegador do usuário que guardam informações sobre preferências, sessões e comportamento no site.
 
 🔗 **Deploy online:** O seu deploy foi feito na vercel e pode ser acessado por qualquer um.
 
@@ -24,7 +28,7 @@ O projeto pode ser acessado por este link: <br>
 
 **Javascript**: Implementado para criar interatividade, como o carrossel de produtos e a funcionalidade de lupa para facilitar a navegação.  
 
-**Boxicons**: Biblioteca de ícones utilizada para enriquecer a interface, oferecendo uma ampla variedade de ícones que são facilmente customizáveis.
+**Google Analytics**: Ferramenta de monitoramento que coleta dados sobre o comportamento dos usuários no site, permitindo análises como tempo de navegação, páginas acessadas e origem do tráfego.
 
 **Vercel**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
 
@@ -33,7 +37,7 @@ O projeto pode ser acessado por este link: <br>
 Para clonar o repositório, execute o seguinte comando:
 
 ```bash
-git clone https://github.com/DanielBMoura/EE-Company.git
+git clone https://github.com/DanielBMoura/PetShop.git
 ```
 
 ## Considerações finais 📝
